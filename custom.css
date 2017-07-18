@@ -1,0 +1,11 @@
+    .tabs_branded .tabs-left > li > a.validation_errors::after,
+    .tabs_branded .tabs-left > li > a.validation_errors:hover::after,
+    .tabs-left > li > a.validation_errors:focus::after {
+        content: "\f071";
+        font: normal normal normal 14px/1 FontAwesome;
+        position: absolute;
+        color: #FFE613;
+        left: 30px;
+        top: 12px;
+        font-size: 20px;
+    }
